@@ -1,0 +1,26 @@
+[project]
+name = "hackathon-doc-agent"
+version = "0.1.0"
+description = "LangGraph agent that turns a code snippet, JSON or YAML file into grounded hackathon documentation (PDF / Markdown)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core>=0.3",
+    "langchain-openai>=0.2",
+    "langchain-groq>=0.2",
+    "langchain-ollama>=0.2",
+    "langgraph>=0.2",
+    "streamlit>=1.40",
+    "pyyaml>=6.0",
+    "reportlab>=4.0",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

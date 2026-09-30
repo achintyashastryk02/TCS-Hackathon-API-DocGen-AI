@@ -1,0 +1,9 @@
+app:
+  name: weather-bot
+  port: 8080
+services:
+  weather_api:
+    url: https://api.example.com/v1
+    timeout_seconds: 5
+logging:
+  level: INFO

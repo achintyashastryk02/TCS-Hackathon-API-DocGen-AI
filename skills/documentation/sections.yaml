@@ -1,0 +1,27 @@
+# Edit this list to match your hackathon's required documentation parameters.
+# evidence: true  -> the section must end with an "Evidence:" line.
+sections:
+  - title: Project Overview
+    guidance: What the code/config is, in factual terms, based on names, comments and structure in the input.
+  - title: Problem Statement
+    guidance: Only if the input states or clearly documents the problem; otherwise Not specified.
+  - title: Proposed Solution
+    guidance: How the input addresses its purpose, described from the implementation itself.
+  - title: Key Features
+    guidance: Bullet list of capabilities that are directly visible in the input.
+  - title: System Architecture
+    guidance: Components, modules, data flow and control flow visible in the input. Use a table or bullet flow.
+  - title: Technology Stack
+    guidance: Languages, frameworks, libraries, services actually imported, referenced or configured. Table preferred.
+  - title: Endpoint Description
+    guidance: Describe each API endpoint's method, path, purpose, behavior, and response including status code and response-body shape when present in the input. Otherwise write Not specified.
+  - title: Parameters
+    guidance: For each documented endpoint, list path, query, header and request-body parameters with names, types, required status, defaults and descriptions when present. Do not infer missing details.
+  - title: Input and Configuration Analysis
+    guidance: Structure of the JSON/YAML/config or function signatures. Table of keys/parameters, types and observed values.
+  - title: Implementation Details
+    guidance: Walk through functions/classes/blocks and what each does, in order of appearance.
+  - title: Setup and Installation
+    guidance: Only steps derivable from the input (dependencies, env vars, config keys). Otherwise Not specified.
+  - title: Usage Examples
+    guidance: Show an example request from the user's perspective and the corresponding API response. Match the documented endpoint method, path, parameters and response shape. Use only concrete values and response fields present in the input; for missing request values use clearly labeled placeholders, and do not fabricate response fields or values.
